@@ -1,0 +1,84 @@
+$blue: #2A74BF;
+$red: #D7514C;
+$green: #4D944B;
+$orange: #D8C11D;
+$grey: #666;
+/* Base */
+
+h1,
+h3 {
+    color: $blue;
+    font-weight: bold;
+}
+.page-header {
+    border-bottom: 1px solid $blue;
+    margin-top: -10px;
+    padding-bottom: 0;
+}
+footer {
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: $grey;
+    p {
+        margin: 0;
+    }
+}
+/* Layout */
+
+.l-block {
+    max-width: 970px;
+    margin: 0 auto;
+}
+.l-main {
+    padding-bottom: 25px;
+}
+/* Modules */
+
+.row {
+    img {
+        width: 100%;
+    }
+    .frame-description {
+        text-align: center;
+        padding: 10px 0;
+        color: white;
+        p {
+            margin: 0;
+        }
+    }
+    .frame {
+        margin-bottom: 15px;
+    }
+    .green-bg {
+        background-color: $green;
+        border: 1px solid $green;
+    }
+    .red-bg {
+        background-color: $red;
+        border: 1px solid $red;
+    }
+    .orange-bg {
+        background-color: $orange;
+        border: 1px solid $orange;
+    }
+    .blue-bg {
+        background-color: $blue;
+        border: 1px solid $blue;
+    }
+}
+/* State */
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+a:hover {
+    .frame {
+        box-shadow: 5px 5px 2px #888888;
+    }
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: $blue;
+    color: white;
+}

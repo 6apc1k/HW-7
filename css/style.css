@@ -1,0 +1,64 @@
+/* Base */
+h1,
+h3 {
+  color: #2A74BF;
+  font-weight: bold; }
+
+.page-header {
+  border-bottom: 1px solid #2A74BF;
+  margin-top: -10px;
+  padding-bottom: 0; }
+
+footer {
+  color: white;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #666; }
+  footer p {
+    margin: 0; }
+
+/* Layout */
+.l-block {
+  max-width: 970px;
+  margin: 0 auto; }
+
+.l-main {
+  padding-bottom: 25px; }
+
+/* Modules */
+.row img {
+  width: 100%; }
+.row .frame-description {
+  text-align: center;
+  padding: 10px 0;
+  color: white; }
+  .row .frame-description p {
+    margin: 0; }
+.row .frame {
+  margin-bottom: 15px; }
+.row .green-bg {
+  background-color: #4D944B;
+  border: 1px solid #4D944B; }
+.row .red-bg {
+  background-color: #D7514C;
+  border: 1px solid #D7514C; }
+.row .orange-bg {
+  background-color: #D8C11D;
+  border: 1px solid #D8C11D; }
+.row .blue-bg {
+  background-color: #2A74BF;
+  border: 1px solid #2A74BF; }
+
+/* State */
+a:hover,
+a:focus {
+  text-decoration: none; }
+
+a:hover .frame {
+  box-shadow: 5px 5px 2px #888888; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #2A74BF;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
